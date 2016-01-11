@@ -1,0 +1,12 @@
+#define PORT 8088
+#define DELIMITER "$"
+#define SIO_KEEPALIVE_VALS _WSAIOW(IOC_VENDOR,4)
+
+
+#define OPERATION_FAILURE "1"
+#define OPERATION_SUCCESS "3"
+#define WRONG_ID_OR_PWD   "2"
+
+#define UPDATE_USER_SCORE 1
+#define INSERT_NEW_SCORE_AND_CHECK_RANKS 2
+#define LOG_OFF           3

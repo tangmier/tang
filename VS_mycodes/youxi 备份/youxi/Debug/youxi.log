@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/1/4 19:43:51。
+     1>项目“F:\VS_mycodes\youxi 备份\youxi\youxi.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\youxi.unsuccessfulbuild”执行 Touch 任务。
+       GenerateTargetFrameworkMonikerAttribute:
+       正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         所有输出均为最新。
+         D:\VS2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\youxi.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt youxi.cpp /clr:nostdlib 
+         youxi.cpp
+     1>f:\vs_mycodes\youxi 备份\youxi\third.h(153): warning C4101: “b”: 未引用的局部变量
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(221): error C2958: 左 圆括号“(”(在“f:\vs_mycodes\youxi 备份\youxi\form1.h(212)”中找到)未能正确匹配
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(212): error C2146: 语法错误: 缺少“)”(在标识符“）”的前面)
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(214): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(216): error C3861: “AfxMessageBox”: 找不到标识符
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(216): error C3861: “_T”: 找不到标识符
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(217): error C2562: “youxi::Form1::button3_Click”:“void”函数返回值
+                 f:\vs_mycodes\youxi 备份\youxi\Form1.h(200) : 参见“youxi::Form1::button3_Click”的声明
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(220): error C2562: “youxi::Form1::button3_Click”:“void”函数返回值
+                 f:\vs_mycodes\youxi 备份\youxi\Form1.h(200) : 参见“youxi::Form1::button3_Click”的声明
+     1>f:\vs_mycodes\youxi 备份\youxi\Form1.h(224): error C2562: “youxi::Form1::button3_Click”:“void”函数返回值
+                 f:\vs_mycodes\youxi 备份\youxi\Form1.h(200) : 参见“youxi::Form1::button3_Click”的声明
+     1>已完成生成项目“F:\VS_mycodes\youxi 备份\youxi\youxi.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56

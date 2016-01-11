@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="check_ranks"
+ targetNamespace="http://localhost/check_ranks.wsdl"
+ xmlns:tns="http://localhost/check_ranks.wsdl"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns="urn:check_ranks"
+ xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:HTTP="http://schemas.xmlsoap.org/wsdl/http/"
+ xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+ xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+ xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
+ xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+<types>
+
+ <schema targetNamespace="urn:check_ranks"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="urn:check_ranks"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <!-- operation request element -->
+  <element name="check-ranks">
+   <complexType>
+    <sequence>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="check-ranksResponse">
+   <complexType>
+    <sequence>
+     <element name="rank" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__check_ranks::rank -->
+    </sequence>
+   </complexType>
+  </element>
+ </schema>
+
+</types>
+
+<message name="check-ranksRequest">
+ <part name="Body" element="ns:check-ranks"/><!-- ns__check_ranks::ns__check_ranks -->
+</message>
+
+<message name="check-ranksResponse">
+ <part name="Body" element="ns:check-ranksResponse"/>
+</message>
+
+<portType name="check_ranksPortType">
+ <operation name="check-ranks">
+  <documentation>Service definition of function ns__check_ranks</documentation>
+  <input message="tns:check-ranksRequest"/>
+  <output message="tns:check-ranksResponse"/>
+ </operation>
+</portType>
+
+<binding name="check_ranks" type="tns:check_ranksPortType">
+ <SOAP:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+ <operation name="check-ranks">
+  <SOAP:operation soapAction=""/>
+  <input>
+     <SOAP:body parts="Body" use="literal"/>
+  </input>
+  <output>
+     <SOAP:body parts="Body" use="literal"/>
+  </output>
+ </operation>
+</binding>
+
+<service name="check_ranks">
+ <documentation>gSOAP 2.8.20 generated service definition</documentation>
+ <port name="check_ranks" binding="tns:check_ranks">
+  <SOAP:address location="http://localhost/check_ranks.cgi"/>
+ </port> <port name="check_ranks" binding="tns:check_ranks">
+  <SOAP:address location="http://localhost"/>
+ </port>
+</service>
+
+</definitions>

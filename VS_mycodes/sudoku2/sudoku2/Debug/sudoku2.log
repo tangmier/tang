@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/12/16 16:20:21。
+     1>项目“c:\Users\wujiechu\documents\visual studio 2010\Projects\sudoku2\sudoku2\sudoku2.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“c:\users\wujiechu\documents\visual studio 2010\Projects\sudoku2\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\sudoku2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DBO.cpp main.cpp PacketWrapper.cpp Service.cpp soapC.cpp soapClient.cpp stdsoap2.cpp UserAction.cpp
+         UserAction.cpp
+     1>c:\users\wujiechu\documents\visual studio 2010\projects\sudoku2\sudoku2\dbo.h(5): fatal error C1083: 无法打开包括文件:“mysql.h”: No such file or directory
+         stdsoap2.cpp
+         soapClient.cpp
+         soapC.cpp
+         Service.cpp
+     1>c:\users\wujiechu\documents\visual studio 2010\projects\sudoku2\sudoku2\dbo.h(5): fatal error C1083: 无法打开包括文件:“mysql.h”: No such file or directory
+         PacketWrapper.cpp
+         main.cpp
+     1>c:\users\wujiechu\documents\visual studio 2010\projects\sudoku2\sudoku2\dbo.h(5): fatal error C1083: 无法打开包括文件:“mysql.h”: No such file or directory
+         DBO.cpp
+     1>c:\users\wujiechu\documents\visual studio 2010\projects\sudoku2\sudoku2\dbo.h(5): fatal error C1083: 无法打开包括文件:“mysql.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“c:\Users\wujiechu\documents\visual studio 2010\Projects\sudoku2\sudoku2\sudoku2.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.16
